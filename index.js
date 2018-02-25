@@ -7,9 +7,9 @@ function nestedTarget(){
 }
 
 function increaseRankBy(n){
-  var ranked_lists = document.querySelectorAll('.ranked-list')
-  for (var r in ranked_lists){
-    ranked_lists[r].innerHTML = (ranked_lists[r] + n).toString()
+  var lists = document.querySelectorAll('.ranked-list')
+  for (var r in lists){
+    lists[r].innerHTML = (lists[r] + n).toString()
   }
 }
 
